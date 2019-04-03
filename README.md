@@ -6,7 +6,7 @@ This code is based on the [best practice](https://docs.atlas.mongodb.com/best-pr
 
 ## Environment Variables
 
-**MONGO_DBURL**: Uri to your MongoDB instance (mongodb://...)
+**MONGO_DBURL**: Uri to your MongoDB instance (mongodb://...) \
 **MONGO_DBNAME**: Your DB name
 
 ## Example

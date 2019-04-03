@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-mongo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS function that applies the recommended MongoDB use with Lambda",
   "main": "index.js",
   "scripts": {

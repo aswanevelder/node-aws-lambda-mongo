@@ -21,7 +21,7 @@ function connectToDatabase(uri) {
 
 exports.dowork = (event, context, func, callback) => {
     if (func) {
-        // context.callbackWaitsForEmptyEventLoop = false;
+        context.callbackWaitsForEmptyEventLoop = false;
         console.log('event: ', event);
 
         connectToDatabase(environment.MONGO_DBURL)
