@@ -15,7 +15,7 @@ This code is based on the [best practice](https://docs.atlas.mongodb.com/best-pr
 const lambdamongo = require('aws-lambda-mongo');
 
 function dowork(db, event) {
-    db.collection('mycollection').insertOne({"name":"name1"})
+    return db.collection('mycollection').insertOne({"name":"name1"})
     .then(async (data) => {
         return { statusCode: 200, data: data };
     })
